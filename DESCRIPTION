@@ -1,0 +1,13 @@
+Package: PercentileAnnualCycle
+Type: Package
+Title: Compute Percentile Annual Cycle of climate variables
+Version: 1.0
+Author: Hurtado I. Santiago
+Maintainer: Hurtado I. Santiago <hurtado.santiago@inta.gob.ar>
+Description: Compute Percentile Annual Cycle of climate variables. It provides the moving empirical percentile function (MEP) and the GAM smoothing function for the MEP output.
+License: GPL-3
+Depends: R (>= 3.1.0)
+Imports: checkmate, mgcv
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
