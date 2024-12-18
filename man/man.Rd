@@ -3,7 +3,7 @@
 
 \title{GAM smoothing}
 \description{
-  Compute de smooth annual cycle with GAM.
+  Compute the smoothed annual cycle with GAM.
 }
 \usage{
   GAM_AnnualCycle(vec, N_basicfun =9, fam ='gaussian')
