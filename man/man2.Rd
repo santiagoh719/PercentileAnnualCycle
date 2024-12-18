@@ -3,15 +3,15 @@
 
 \title{Moving window Empirical Percentile}
 \description{
-  Compute de moving window Empirical Percentile (MEP).
+  Computes the moving window Empirical Percentile (MEP).
 }
 \usage{
   MEP(Nday_vec, PP_vec, Per, Window = 29)
 }
 \arguments{
-  \item{Nday_vec}{Vector with the Julian Day associated to the PP_vec}
+  \item{Nday_vec}{Vector with the Julian Day associated with the PP_vec}
 
-  \item{PP_vec}{Numeric Vector for which percentile will be compute}
+  \item{PP_vec}{Numeric Vector for which percentile will be estimated}
 
   \item{Per}{numeric, percentile to be computed}
 
@@ -23,5 +23,5 @@
 }
 
 \details{
-  \code{MEP} Compute de moving window Empirical Percentile (MEP).
+  \code{MEP} Computes the moving window Empirical Percentile (MEP).
 }
